@@ -26,16 +26,18 @@ const Home = () => {
       {/* nav bar */}
 
       <div className="row row-margin">
-        <div className="col-lg-6">
+        <div className="col-lg-6" style={{ padding: "5rem" }}>
           <p className="heading-welcome"> Welcome to my Portfolio</p>
-          <h4 className="Intro">
-            HI! I’m Moneeb<br></br> Front End{" "}
+          <h4 className="Intro" style={{ marginBottom: "1rem" }}>
+            HI! I’m Moneeb<br></br> MERN Stack
             <span className="developer-style">Developer</span>
           </h4>
           <p className="skill-highlight">
             Software Developer with expertise in{" "}
             <span className="MERN"> MERN STACK</span>|
-            <span className="javascript"> JavaScript</span> | HTML | CSS |
+            <span className="javascript"> JavaScript</span> |
+            <span className="html">HTML </span> |
+            <span className="css">CSS</span> |
             <span className="react">React.js</span> |
             <span className="node"> NODE.js</span> |{" "}
             <span className="express"> Express</span> |{" "}
