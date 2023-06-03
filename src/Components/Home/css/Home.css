@@ -1,0 +1,112 @@
+.body {
+    position: relative;
+    background: #FFFFFF;
+}
+
+.nav {
+    position: absolute;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 4.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #4879F7;
+}
+
+.nav-logo {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.row-margin {
+    margin-top: 5rem !important;
+}
+
+.Intro {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 71px;
+
+    color: #364AFF;
+}
+
+.developer-style {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 71px;
+
+    color: #36B7FF;
+}
+
+.heading-welcome {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+
+    letter-spacing: 0.07em;
+
+    color: #579AFF;
+}
+
+.skill-highlight {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+.MERN {
+    color:
+        #7024ec;
+    font-weight: 500;
+}
+
+.javascript {
+    color: yellow;
+}
+
+.react {
+    color: #00d8ff;
+}
+
+.mongo {
+    color: #13aa52;
+}
+
+.express {
+    color: #f4887d;
+}
+
+.node {
+    color: #539e43;
+}
