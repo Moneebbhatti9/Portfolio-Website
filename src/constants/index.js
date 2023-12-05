@@ -15,11 +15,12 @@ import {
   git,
   figma,
   bootstrap,
-  carrent,
-  jobit,
   tripguide,
   Fidsor,
   Eziline,
+  jevistroom,
+  accounting,
+  Natour,
 } from "../assets";
 
 export const navLinks = [
@@ -171,16 +172,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "JeviStroom",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "EV Platform software, which is developed to manage the EV charging station system and can be used with EV station operators without having to pay software development fees",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Emotion",
         color: "green-text-gradient",
       },
       {
@@ -188,29 +189,34 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: jevistroom,
     source_code_link: "https://jevistroom.com/",
   },
   {
-    name: "Job IT",
+    name: "Accounting Application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enable the user to maintain it whole company accounts, their schedules , expenses, income, Empolyee management etc",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "Redux",
+        color: "purple-text-gradient",
       },
       {
-        name: "scss",
+        name: "MUI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL Server",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: accounting,
+    source_code_link:
+      "https://github.com/Moneebbhatti9/Enterprise-Accounting-FidsorProject",
   },
   {
     name: "Trip Guide",
@@ -218,11 +224,11 @@ const projects = [
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
@@ -232,6 +238,27 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://ranaratour.com/",
+  },
+  {
+    name: "Natour",
+    description:
+      "A comprehensive travel booking platform that allows users to book Tour Plans.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Natour,
+    source_code_link: "https://natour-website.netlify.app/",
   },
 ];
 

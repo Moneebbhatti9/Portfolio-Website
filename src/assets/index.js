@@ -25,9 +25,10 @@ import bootstrap from "./tech/bootstrap.svg";
 import Fidsor from "./company/Fidsor.png";
 import Eziline from "./company/Eziline.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import accounting from "./AccountingDashboard.png";
 import tripguide from "./tripguide.png";
+import jevistroom from "./jevistroom.png";
+import Natour from "./Natour.png";
 
 export {
   logo,
@@ -52,9 +53,10 @@ export {
   typescript,
   threejs,
   bootstrap,
-  carrent,
-  jobit,
   tripguide,
   Fidsor,
   Eziline,
+  jevistroom,
+  accounting,
+  Natour,
 };
