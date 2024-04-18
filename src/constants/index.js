@@ -20,6 +20,7 @@ import {
   Eziline,
   jevistroom,
   accounting,
+  spacejobwebsite,
   Natour,
 } from "../assets";
 
@@ -217,6 +218,31 @@ const projects = [
     image: accounting,
     source_code_link:
       "https://github.com/Moneebbhatti9/Enterprise-Accounting-FidsorProject",
+  },
+  {
+    name: "Join The Space Website",
+    description:
+      "Web application that enable the job seeker to check for the availability of roles in Space Company",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Three Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Wordpress",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: spacejobwebsite,
+    source_code_link: "https://www.jointhe.space/",
   },
   {
     name: "Trip Guide",
