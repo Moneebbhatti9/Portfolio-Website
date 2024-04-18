@@ -8,6 +8,7 @@ import { styles } from "../style";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import PropTypes from "prop-types";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -65,6 +66,17 @@ const Experience = () => {
       </div>
     </>
   );
+};
+
+ExperienceCard.propTypes = {
+  experience: PropTypes.shape({
+    date: PropTypes.string.isRequired,
+    iconBg: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    company_name: PropTypes.string.isRequired,
+    points: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
+  }).isRequired,
 };
 
 export default SectionWrapper(Experience, "work");

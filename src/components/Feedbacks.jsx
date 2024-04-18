@@ -1,10 +1,9 @@
-import React from "react";
 import { motion } from "framer-motion";
-
 import { styles } from "../style";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
+import PropTypes from "prop-types";
 
 const FeedbackCard = ({
   index,
@@ -63,4 +62,12 @@ const Feedbacks = () => {
   );
 };
 
+FeedbackCard.propTypes = {
+  index: PropTypes.number.isRequired,
+  testimonial: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  designation: PropTypes.string.isRequired,
+  company: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+};
 export default SectionWrapper(Feedbacks, "");

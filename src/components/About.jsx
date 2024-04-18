@@ -4,6 +4,7 @@ import { styles } from "../style";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import PropTypes from "prop-types";
 
 const ServiceCard = ({ icon, title, index }) => {
   return (
@@ -13,6 +14,7 @@ const ServiceCard = ({ icon, title, index }) => {
         className="w-full green-pink-gradient p-[2px] rounded-[20px] shadow-card"
       >
         <div
+          // eslint-disable-next-line react/no-unknown-property
           options={{ max: 45, scale: 1, speed: 450 }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
@@ -59,6 +61,12 @@ const About = () => {
       </div>
     </>
   );
+};
+
+ServiceCard.propTypes = {
+  icon: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired,
 };
 
 export default SectionWrapper(About, "about");
