@@ -29,6 +29,7 @@ import accounting from "./AccountingDashboard.png";
 import tripguide from "./tripguide.png";
 import jevistroom from "./jevistroom.png";
 import Natour from "./Natour.png";
+import spacejobwebsite from "./spacejobwebsite.png";
 
 export {
   logo,
@@ -58,5 +59,6 @@ export {
   Eziline,
   jevistroom,
   accounting,
+  spacejobwebsite,
   Natour,
 };
