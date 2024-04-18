@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { styles } from "../style";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
+import { slideIn } from "./../utils/motion";
 
 const toastStyles = {
   Toastify__toast: {
