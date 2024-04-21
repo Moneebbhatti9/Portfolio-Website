@@ -4,7 +4,7 @@ import { styles } from "../style";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import PropTypes from "prop-types";
-import { fadeIn, textVariant } from "./../utils/motion";
+import { fadeIn, textVariant } from "../motion";
 
 const ServiceCard = ({ icon, title, index }) => {
   return (
